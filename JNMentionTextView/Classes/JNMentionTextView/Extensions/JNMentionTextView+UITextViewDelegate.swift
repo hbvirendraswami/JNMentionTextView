@@ -43,7 +43,7 @@ extension JNMentionTextView: UITextViewDelegate {
                     // deleted index greter than -1
                     guard deletedIndex > -1 && deletedIndex < self.searchString.count
                         else {
-                            self.endMentionProcess()
+//                            self.endMentionProcess()
                             return true
                     }
                     
